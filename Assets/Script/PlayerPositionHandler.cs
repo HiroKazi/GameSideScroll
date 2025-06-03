@@ -39,7 +39,9 @@ public class PlayerPositionHandler : MonoBehaviour
     //berguna ketika Player menabrak garis Finish
     public void OnFinish()
     {
-        playerPositionData.ResetData();
+        GameManager.Instance.ChangeLevel(1);
+
+        GameManager.Instance.ChangeScene(0);
 
     }
     //1. berguna untuk mengubah posisi player
@@ -57,4 +59,5 @@ public class PlayerPositionHandler : MonoBehaviour
     {
         playerPositionData.position = newPosition;
     }
+
 }
