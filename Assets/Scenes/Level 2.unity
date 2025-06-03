@@ -3954,6 +3954,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPaused: 0
+  levelCurrent: 1
+  isStart: 0
 --- !u!4 &1549329707
 Transform:
   m_ObjectHideFlags: 0
